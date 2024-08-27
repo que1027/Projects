@@ -58,6 +58,5 @@ def submit():
 # Submit button
 button = tk.Button(root, text="Submit", command=lambda:submit())
 button.pack()  # Pack the button
-
 # Run the application
 root.mainloop()
