@@ -1,0 +1,15 @@
+c:\Users\quint\Projects\CleanerApp\bin\Debug\net7.0\CleanerApp.exe
+c:\Users\quint\Projects\CleanerApp\bin\Debug\net7.0\CleanerApp.deps.json
+c:\Users\quint\Projects\CleanerApp\bin\Debug\net7.0\CleanerApp.runtimeconfig.json
+c:\Users\quint\Projects\CleanerApp\bin\Debug\net7.0\CleanerApp.dll
+c:\Users\quint\Projects\CleanerApp\bin\Debug\net7.0\CleanerApp.pdb
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.csproj.AssemblyReference.cache
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.AssemblyInfoInputs.cache
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.AssemblyInfo.cs
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.csproj.CoreCompileInputs.cache
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.dll
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\refint\CleanerApp.dll
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.pdb
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\CleanerApp.genruntimeconfig.cache
+c:\Users\quint\Projects\CleanerApp\obj\Debug\net7.0\ref\CleanerApp.dll
