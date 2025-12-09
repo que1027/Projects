@@ -10,7 +10,7 @@
 - Open the settings on the machine and make the following changes.
   >1. Go to the system section and set "Base Memory" to 8000MB.
   >2. Then open the Processor tab and set "Number of CPUs to 2.
-  >3. Next Navigate to the Network section and set the Attached to option to "Internal Network" and Name to AD_LAB
+  >3. Next Navigate to the Network section and set the Attached to option to "Internal Network" and Name to AD_LAB then set Adapter 2 to NAT. 
 - click ok and double click the new machine to start it.
 
   **Installation**
@@ -58,7 +58,12 @@
   - Hit Next as long as the NetBIOS domain name is CORP
   - contiue clicking next until the prerequisites checks start.
   - Click install as long as the prerequisite checks have passed successfully, ignore warnings.
- 
+ **Forward requeste to the internet**
+  -go to the server manager
+  -go to tools>DNS then right click the server name.
+  -hit properties then the forwarders tab
+
+
   **Client Installation** a new machine
   - Name the new machine AD Lab Client
   - Under ISO Image select the Wi
@@ -69,6 +74,7 @@
   - Set Ram to 8000mb
   - Set CPU to 2 cores
   - Set Network Adapter 1 to Internal network
+  - Set Network Adapter 2 to NAT
   - Open the client machine and start the windows setup.
   - hit next on language settings and next on keyboard settings.
   - click the Install Windows 11, check the agree button then hit next.
