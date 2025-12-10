@@ -102,4 +102,7 @@
   - click change at the bottom and for Domain enter: corp.local
   - now enter the DC credentials.
   - Congragulatons you can now sign in the client device with the DC credentials because AD is controlled by the DC(Domain Controller)
+
+    **Installing SIEM**
+    
   
