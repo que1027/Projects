@@ -104,5 +104,17 @@
   - Congragulatons you can now sign in the client device with the DC credentials because AD is controlled by the DC(Domain Controller)
 
     **Installing SIEM**
-    
+ - Install the Wazuh all in one OVA
+ - go to virtual box and click import and import the OVA you just installed.
+ - next set adapter one to internal network and make the name AD_LAB just like the others.
+ - then adapter 2 on NAT.
+ - Open the machine and login using the login info that the terminal gives you.
+ - IP Config:
+   > sudo ip addr add 192.168.10.50/24 dev eth1
+   > sudo ip link set eth1 up
+   > you must do this at every logon.
+ **Starting the SIEM**
+
+
+  
   
