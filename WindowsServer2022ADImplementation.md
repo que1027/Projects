@@ -112,6 +112,7 @@
  - IP Config:
    >1. sudo ip addr add 192.168.10.50/24 dev eth1.
    >2. sudo ip link set eth1 up.
+   
    > you must do this at every logon.
  **Starting the SIEM**
  -Open the client machine and type the https://192.168.10.50 into the web browser.
