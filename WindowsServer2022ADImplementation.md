@@ -115,7 +115,7 @@
 
 > You must do this at every logon.
 
----
+
 
 ## Starting the SIEM
 - Open the client machine and enter `https://192.168.10.50` in a web browser.  
