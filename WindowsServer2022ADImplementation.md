@@ -109,18 +109,21 @@
  - next set adapter one to internal network and make the name AD_LAB just like the others.
  - then adapter 2 on NAT.
  - Open the machine and login using the login info that the terminal gives you.
- - IP Config:
-   >1. sudo ip addr add 192.168.10.50/24 dev eth1.
-   >2. sudo ip link set eth1 up.
-   
-   > you must do this at every logon.
- **Starting the SIEM**
- -Open the client machine and type the https://192.168.10.50 into the web browser.
- - login using the username admin and the password admin.
- - go to deploy new agent
- - follow all of the steps
- - give the clien and the attacking machine a new network adapter on host only(VMs cannot communicate with each other over the internet so the host will act as the internet.)
- - 
+## IP Config
+> 1. sudo ip addr add 192.168.10.50/24 dev eth1  
+> 2. sudo ip link set eth1 up  
+
+> You must do this at every logon.
+
+---
+
+## Starting the SIEM
+- Open the client machine and enter `https://192.168.10.50` in a web browser.  
+- Log in using username: `admin` and password: `admin`.  
+- Go to **Deploy new agent**.  
+- Follow all setup steps.  
+- Add a **Host-Only Adapter** to both the client and attacker machines.  
+- This allows all VMs to communicate in the lab network since they cannot use the internet.
 
 
   
