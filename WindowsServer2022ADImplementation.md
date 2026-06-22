@@ -110,8 +110,8 @@
  - then adapter 2 on NAT.
  - Open the machine and login using the login info that the terminal gives you.
  - IP Config:
-   > sudo ip addr add 192.168.10.50/24 dev eth1
-   > sudo ip link set eth1 up
+   > sudo ip addr add 192.168.10.50/24 dev eth1.
+   > sudo ip link set eth1 up.
    > you must do this at every logon.
  **Starting the SIEM**
  -Open the client machine and type the https://192.168.10.50 into the web browser.
